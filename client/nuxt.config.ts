@@ -19,10 +19,10 @@ export default defineNuxtConfig({
 
     vite: {
         server: {
-        hmr: {
-            // Instead of go through proxy, we directly connect real port of the client app
-            clientPort: +(process.env.PORT || 3300),
-        },
+            hmr: {
+                // Instead of go through proxy, we directly connect real port of the client app
+                clientPort: +(process.env.PORT || 3300),
+            },
         },
     },
 
