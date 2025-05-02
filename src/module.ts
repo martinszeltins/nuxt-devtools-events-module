@@ -1,5 +1,5 @@
-import { defineNuxtModule, addPlugin, createResolver } from '@nuxt/kit'
 import { setupDevToolsUI } from './devtools'
+import { defineNuxtModule, addPlugin, createResolver } from '@nuxt/kit'
 
 export interface ModuleOptions {
     devtools: boolean
@@ -7,8 +7,8 @@ export interface ModuleOptions {
 
 export default defineNuxtModule<ModuleOptions>({
     meta: {
-        name: 'my-module',
-        configKey: 'myModule',
+        name: 'nuxt-devtools-events',
+        configKey: 'nuxtDevtoolsEvents',
     },
 
     defaults: {

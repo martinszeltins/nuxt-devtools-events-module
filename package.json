@@ -1,7 +1,7 @@
 {
-  "name": "my-module",
+  "name": "nuxt-devtools-events",
   "version": "1.0.0",
-  "description": "My new Nuxt module",
+  "description": "Nuxt Devtools Events",
   "license": "MIT",
   "type": "module",
   "exports": {

@@ -25,8 +25,8 @@ export default defineNuxtConfig({
                     },
 
                     {
-                        id: 'my-module:client',
-                        name: 'My Module Client Dev',
+                        id: 'nuxt-devtools-events:client',
+                        name: 'Nuxt Devtools Events Client Dev',
                     },
                 )
             },

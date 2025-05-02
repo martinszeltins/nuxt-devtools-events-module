@@ -14,7 +14,7 @@ export default defineNuxtConfig({
     },
 
     app: {
-        baseURL: '/__my-module',
+        baseURL: '/__nuxt-devtools-events',
     },
 
     vite: {

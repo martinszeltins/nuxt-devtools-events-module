@@ -2,7 +2,7 @@ import { existsSync } from 'node:fs'
 import type { Nuxt } from 'nuxt/schema'
 import type { Resolver } from '@nuxt/kit'
 
-const DEVTOOLS_UI_ROUTE = '/__my-module'
+const DEVTOOLS_UI_ROUTE = '/__nuxt-devtools-events'
 const DEVTOOLS_UI_LOCAL_PORT = 3300
 
 export function setupDevToolsUI(nuxt: Nuxt, resolver: Resolver) {
@@ -36,8 +36,8 @@ export function setupDevToolsUI(nuxt: Nuxt, resolver: Resolver) {
 
     nuxt.hook('devtools:customTabs', tabs => {
         tabs.push({
-            name: 'my-module',
-            title: 'My Module',
+            name: 'nuxt-devtools-events',
+            title: 'Nuxt Devtools Events',
             icon: 'carbon:apps',
             view: {
                 type: 'iframe',

@@ -1,5 +1,5 @@
 <template>
     <div>
-        My Module!
+        Nuxt Devtools Events!
     </div>
 </template>
