@@ -37,8 +37,8 @@ export function setupDevToolsUI(nuxt: Nuxt, resolver: Resolver) {
     nuxt.hook('devtools:customTabs', tabs => {
         tabs.push({
             name: 'nuxt-devtools-events',
-            title: 'Nuxt Devtools Events',
-            icon: 'carbon:apps',
+            title: 'Events',
+            icon: 'carbon:satellite-radar',
             view: {
                 type: 'iframe',
                 src: DEVTOOLS_UI_ROUTE,
